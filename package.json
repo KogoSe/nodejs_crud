@@ -1,0 +1,30 @@
+{
+  "name": "ep.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-json-modules app",
+    "start": "node --experimental-json-modules app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "express-joi-validation": "^5.0.0",
+    "express-validator": "^6.14.0",
+    "humps": "^2.0.1",
+    "joi": "^17.5.0",
+    "mongoose": "^6.1.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
