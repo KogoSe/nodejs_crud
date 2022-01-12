@@ -14,4 +14,4 @@ ProductRouter.post('/',Validator.body(CreateProductDto),Productcontroller.create
 ProductRouter.patch('/:id',Validator.body(UpdateProductDto),Productcontroller.updateProduct)
 
 
-export default ProductRouter
+export default ProductRouter  
